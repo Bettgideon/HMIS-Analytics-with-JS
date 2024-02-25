@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Management Analytics Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Hotel M.I.S Analytics Dashboard</h1>
+  <div class="dashboard">
+    <div class="card">
+      <div class="card-header">Total Guests</div>
+      <div class="card-content" id="totalGuests">100</div>
+    </div>
+    <div class="card">
+      <div class="card-header">Rooms Occupied</div>
+      <div class="card-content" id="roomsOccupied">50</div>
+    </div>
+    <div class="card">
+      <div class="card-header">Available Rooms</div>
+      <div class="card-content" id="availableRooms">50</div>
+    </div>
+    <div class="chart-container">
+      <canvas id="revenuePieChart"></canvas>
+    </div>
+    <div class="card">
+      <div class="card-header">Check-Ins Today</div>
+      <div class="card-content" id="checkInsToday">20</div>
+    </div>
+    <div class="card">
+      <div class="card-header">Check-Outs Today</div>
+      <div class="card-content" id="checkOutsToday">10</div>
+    </div>
+    <div class="card">
+      <div class="card-header">Total Revenue</div>
+      <div class="card-content" id="totalRevenue">KSh 5000</div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

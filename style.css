@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272424;
+  }
+  
+  .container {
+    max-width: 1350px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .card {
+    background-color: #fff8dc; /* Light goldenrod yellow */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    color: #ff7f50; /* Coral */
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    color: #4db424; /* Indigo */
+    font-size: 30px;
+  }
+  
+  .chart-container {
+    grid-column: span 2;
+    background-color: rgb(170, 173, 125);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
